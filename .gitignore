@@ -12,6 +12,7 @@ pubspec.lock
 # Rails / Ruby
 vendor/bundle/
 .bundle/
+**/config/master.key
 log/
 tmp/
 coverage/

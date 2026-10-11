@@ -19,6 +19,10 @@ rails db:create
 rails db:migrate
 ```
 
+Rails credentials are encrypted in `config/credentials.yml.enc`. Keep the
+matching `config/master.key` out of version control and provide it through the
+`RAILS_MASTER_KEY` environment variable in deployed environments.
+
 ### Running the Server
 
 ```bash
